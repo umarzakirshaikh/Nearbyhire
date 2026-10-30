@@ -1,0 +1,11 @@
+{
+  "name": "nearbyhire-workspace",
+  "version": "1.0.0",
+  "description": "NearbyHire Hyperlocal Employment Platform",
+  "scripts": {
+    "server": "npm.cmd --prefix backend run dev",
+    "client": "npm.cmd --prefix frontend run dev",
+    "seed": "npm.cmd --prefix backend run seed",
+    "build:client": "npm.cmd --prefix frontend run build"
+  }
+}
